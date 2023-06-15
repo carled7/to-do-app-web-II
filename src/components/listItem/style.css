@@ -1,0 +1,42 @@
+.container {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin: 0.6em 1.2em;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container:hover {
+    border: 1px #cccccc solid;
+}
+
+.check-box{
+    background-color: #e5e5e5;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 35%;
+    transition: all 0.25s;
+}
+
+.active{
+    background-color: aquamarine;
+}
+
+.active:hover{
+    background-color: rgb(76, 255, 195);
+    border-radius: 25%;
+}
+
+.check-box:hover:not(.active){
+    background-color: #cccccc;
+    border-radius: 25%;
+}
+
