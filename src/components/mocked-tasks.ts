@@ -9,5 +9,13 @@ export const tasks = [
     'Test application',
     'Deploy to production',
     'Bug fixes',
+    'Review code',
+    'Send client update',
+    'Schedule team meeting',
+    'Research new technologies',
+    'Write documentation',
+    'Test application',
+    'Deploy to production',
+    'Bug fixes',
   ];
   

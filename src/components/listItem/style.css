@@ -18,12 +18,26 @@
     border: 1px #cccccc solid;
 }
 
+.left-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-btn > * {
+    margin: 0 0.5em;
+    transition: all 0.25s;
+}
+
+.left-btn > *:hover:not(.check-box){
+    color: #8fb0ce;
+}
+
 .check-box{
     background-color: #e5e5e5;
     width: 1.5em;
     height: 1.5em;
     border-radius: 35%;
-    transition: all 0.25s;
 }
 
 .active{
