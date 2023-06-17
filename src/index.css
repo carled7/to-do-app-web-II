@@ -58,8 +58,6 @@ button:focus-visible {
 .list-container{
   margin: auto;
   width: 70vw;
-  height: 87vh;
-  overflow-y: scroll;
 }
 
 

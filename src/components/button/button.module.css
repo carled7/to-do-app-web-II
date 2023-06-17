@@ -1,0 +1,31 @@
+.container{
+    border: #213547 solid 2px;
+    border-radius: 0.5em;
+    margin: 1em auto;
+    padding: 0.25em 1em;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    cursor: pointer;
+
+    transition: all 0.25s;
+}
+
+.container > p{
+    color:#213547;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+.container:hover{
+    background-color: #213547;
+}
+
+.container:hover > p{
+    color:white;
+    font-weight: 600;
+    font-size: large;
+}
